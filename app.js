@@ -10,6 +10,8 @@ const User = require('./models/user')
 
 const app = express()
 
+// Date.now().toISOString()
+
 app.use(bodyParser.json())
 
 app.use(
